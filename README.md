@@ -1,45 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 2
 
-Welcome LAMcGuinness,
+## About
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX Design 
 
-## Gitpod Reminders
+### Business Scope
+By having this website the business is aiming to;
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
+As as user I want to;
 
-`python3 -m http.server`
+As a returning user I want to;
 
-A blue button should appear to click: _Make Public_,
+As a parent already using this school I want to;
 
-Another blue button should appear to click: _Open Browser_.
+### Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Wireframes
+Wirefames were created using balsamiq and can be found in the link below.
+[Wirefames](https://balsamiq.cloud/snrllgh/p9puddq) 
 
-A blue button should appear to click: _Make Public_,
+## Features
+* Navigation Bar 
+  -  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
 
-Another blue button should appear to click: _Open Browser_.
+* Contact Section
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Footer
 
-## Updates Since The Instructional Video
+## Technologies Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Languages
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* HTML
+* CSS
+* Javascript
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries and Programs Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
+### Issues Encountered
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Testing User Stories
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### First time user
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Returning User
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Testing Functionality
 
----
+#### Checked for broken links
 
-Happy coding!
+#### Tested browser back/forward actions
+
+#### Tested form validation
+
+### Testing Compatibility
+
+#### Responsiveness
+ 
+#### Devices Test
+The website was tested on the following devices:
+
+#### Browser Test
+Tested the website on most up to date versions of:
+
+### Testing Performance & Accessibility
+
+### Code validation
+
+#### HTML
+HTML code was validated by [W3C Validator](https://validator.w3.org/). S
+
+#### CSS
+CSS was validated by [W3C CSS](https://validator.w3.org/). 
+
+#### JavaScript
+
+### Further testing 
+* Spell check carried out using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). 
+
+## Deployment
+### GitHub Pages
+
+### Forking the GitHub repository
+
+## Credits
+* Code
+ 
+* General
+
+* Media
+
+* Photographs
+
+### Acknowledgements
+* I would like to thank my mentor Nishant Kumar for his continuous helpful feedback.
