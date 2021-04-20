@@ -35,17 +35,21 @@ As a returning user I want to;
 
 ### Wireframes
 Wirefames were created using balsamiq and can be found in the link below.
-[Wirefames]() 
+[Wirefames](https://balsamiq.cloud/susrf72/p9rmus4) 
 
 ## Features
 * Navigation Bar 
-  -  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
+-  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
 
 * Contact Section
 - Contains a contact form for users to contact the develops with any questions or feedback.
 
 * Footer
 - Contains links to their social media accounts
+
+## Features for future release
+
+
 ## Technologies Used
 
 ### Languages
@@ -72,6 +76,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 8. [Shutterstock](https://www.shutterstock.com/home) images were found here.
 
 9. [CodePen](https://codepen.io/) used to preview and write code.
+
+10. [ResponsiveViewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) used to see what the site looked on various other devices.
 
 
 ## Testing
