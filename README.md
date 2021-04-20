@@ -71,6 +71,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 8. [Shutterstock](https://www.shutterstock.com/home) images were found here.
 
+9. [CodePen](https://codepen.io/) used to preview and write code.
+
 
 ## Testing
 ### Issues Encountered

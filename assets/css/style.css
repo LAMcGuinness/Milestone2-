@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
 /* general */
+html {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -43,6 +47,87 @@ body {
 
 .navbar .navbar-toggler-icon {
     color: #F25D50;
+}
+
+/* Callout */
+
+.callout-container {
+    height: 100vh; 
+
+    background: url(../images/cocktailEquipment.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: callout-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+ /*--"Whiskey Drop Project" Code Institute --*/
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+.callout-outer {
+    height: 100vh; 
+    overflow: hidden;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #F25D50;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jumbotron-subhead {
+    color: #F25D50;
+    font-size: 90%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7px;
+}
+
+/* block divider */
+.block-divider {
+    width: 100px;
+    height: 5px;
+    border: 0;
+    background-color: #F25D50;
+}
+
+/* buttons*/ 
+.btn-cta {
+    font-weight: 700;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.btn-cocktails {
+   color: #403c3e;
+   background-color: #F25D50; 
+   border-color: #403c3e;
+   margin-top: 10px;
+   margin-bottom: 20px;
 }
 
 /* Footer */
