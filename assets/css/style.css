@@ -12,6 +12,10 @@ body {
     background-color: #403C3E;
 }
 
+.container-fluid {
+    margin-top: 20px;
+}
+
 /* NAVBAR */
 .navbar-container{
     position: absolute;
@@ -128,6 +132,15 @@ body {
    border-color: #403c3e;
    margin-top: 10px;
    margin-bottom: 20px;
+}
+
+/* cocktails */
+.cocktails-head {
+    padding-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #F25D50;
 }
 
 /* Footer */
