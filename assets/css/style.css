@@ -40,3 +40,48 @@ body {
     font-weight: 600;
     font-size: 14px;
 }
+
+.navbar .navbar-toggler-icon {
+    color: #F25D50;
+}
+
+/* Footer */
+footer {
+    background-color: #403C3E;
+    color: #F25D50;
+    min-height: 120px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .copy-col ul{
+    list-style-type: none; 
+    padding: 0;
+  }
+  .content-copy-col {
+     color: #F25D50;
+  }
+  
+  .social-header {
+    text-transform: none;
+    font-size: 18px;
+    margin: 0;
+    color: #F25D50;
+  }
+  
+  .social-links li a i {
+      width: 32px;
+      height: 32px;
+      padding: 12px 0;
+      border-radius: 50%;
+      font-size: 18px;
+      line-height: 7px;
+      text-align: center;
+      color: #F25D50;
+  }
+  
+  #footer-details {
+      padding: 25px;
+  }
+  

@@ -7,6 +7,7 @@ This website 'Cocktail Space' is an interactive cocktail recipe website which in
 A live version of the website can be found ---- and its repository ----
 
 ## About
+Cocktail Space is designed for people who are above the legal age of drinking in their country. It was designed to give people the knowledge to create bar quality drinks at home for housemates or family.
 
 ## UX Design 
 
@@ -19,10 +20,16 @@ As as first time user I want to;
 * Learn more about cocktail making and mixology.
 * Easily find the selection of cocktails that instructions are available to make on this website.
 * Easily find the ingredients needed, instructions on making and serving selected cocktail.
+* Increase my knowledge and skill in cocktail making
 * Have links to social media to learn more about the company.
 * Link to contact information incase of any further questions or feedback.  
 
 As a returning user I want to;
+* Easily navigate around the website.
+* Find favourite and new cocktails to make.
+* Search for cocktails
+* Find links to social media account
+* Contact the creators if I have some suggestions or queries.
 
 ### Design
 
@@ -61,6 +68,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 6. [Canva](https://www.canva.com/) was used to create logo
 
 7. [TheCocktailDB](https://www.thecocktaildb.com/) was used as the database for all cocktails in this website.
+
+8. [Shutterstock](https://www.shutterstock.com/home) images were found here.
 
 
 ## Testing
@@ -127,11 +136,6 @@ Forking the orginal respository on GitHub account can be used to make changes to
  
 * General
 - A general source of inspiration for ideas [Hennessy](https://www.hennessy.com/en-int/cocktails?gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFP86x5_iu8DZQb6YhWmUcYaV7xiKPKNrRNpDU4aqUZQAq8_5xeIIZIaAo7tEALw_wcB)
-
-
-* Media
-
-* Photographs
 
 ### Acknowledgements
 * I would like to thank my mentor
