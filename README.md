@@ -114,6 +114,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Testing
 ### Issues Encountered
+- When adding the event listener to contact form this JS error came up in DevTools.
+script.js:26 Uncaught TypeError: Cannot read property 'addEventListener' of null
+Solution : Put code inside window.onload
 
 ### User Stories
 
