@@ -116,24 +116,20 @@ body {
     width: 100px;
     height: 5px;
     border: 0;
-    background-color: #F25D50;
+    background-color: #7BA681;
 }
 
 /* buttons*/ 
-.btn-cta {
+.btn {
     font-weight: 700;
     border-radius: 25px;
     width: 200px;
-}
-
-.btn-cocktails {
    color: #403c3e;
    background-color: #F25D50; 
-   border-color: #403c3e;
+   border-color: #7BA681;
    margin-top: 10px;
    margin-bottom: 20px;
 }
-
 /* cocktails */
 .cocktails-head {
     padding-top: 40px;
@@ -143,6 +139,44 @@ body {
     color: #F25D50;
 }
 
+/* contact section */
+
+.contact-form {
+    background-color: #403c3e;
+    color: #F25D50;
+    padding-top: 15px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+ }
+ 
+ .contact-heading {
+     padding-top: 18px;
+     margin-top: 18px;
+     margin-bottom: 18px;
+ }
+
+form{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    BACKGROUND-COLOR: #403C3E;
+    height: auto;
+    BORDER: #7BA681 SOLID 1PX;
+    COLOR: #F25D50;
+    
+}
+
+textarea.form-control {
+    BACKGROUND-COLOR: #403C3E;
+    height: auto;
+    BORDER: #7BA681 SOLID 1PX;
+    COLOR: #F25D50;
+}
 /* Footer */
 footer {
     background-color: #403C3E;

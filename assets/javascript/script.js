@@ -1,3 +1,8 @@
+// fetch cocktails from json
 
-const url = "https://thecocktaildb.com/api/json/v1/1/search.php?f=m";
+fetch("https://thecocktaildb.com/api/json/v1/1/search.php?f=m")
+    .then((response) => {
+        return response.json()
+    })
 
+    

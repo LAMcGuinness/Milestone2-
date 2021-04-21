@@ -79,6 +79,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 10. [ResponsiveViewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) used to see what the site looked on various other devices.
 
+11. [JSONLint](https://jsonlint.com/) 
+
 
 ## Testing
 ### Issues Encountered
@@ -141,6 +143,7 @@ Forking the orginal respository on GitHub account can be used to make changes to
 
 ## Credits
 * Code
+
  
 * General
 - A general source of inspiration for ideas [Hennessy](https://www.hennessy.com/en-int/cocktails?gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFP86x5_iu8DZQb6YhWmUcYaV7xiKPKNrRNpDU4aqUZQAq8_5xeIIZIaAo7tEALw_wcB)
