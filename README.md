@@ -60,6 +60,16 @@ As a returning user I want to;
 
 ### Design
 
+#### Colors
+Colors used were found using adobe wheel search. Same colors are throughout the sites sections/pages.
+![ColorChart](/assets/images/colorScheme.png)
+
+#### Typography
+Merriweather is the font selected from google fonts is used throughout the site.
+
+#### Iconography
+Icons were used in the footer to show social media links. The user should easily recognised the links for each company. Twitter, Instagram, Facebook and Pinterest
+
 ### Wireframes
 Wirefames were created using balsamiq and can be found in the link below.
 [Wirefames](https://balsamiq.cloud/susrf72/p9rmus4) 
@@ -67,7 +77,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 ## Features
 ### Current Features
 * Navigation Bar 
--  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
+-  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections. The navigation bar contains links to each section: home, cocktails and contact.
+
+* Cocktail Section 
 
 * Contact Section
 - Contains a contact form for users to contact the develops with any questions or feedback.
@@ -76,7 +88,10 @@ Wirefames were created using balsamiq and can be found in the link below.
 - Contains links to their social media accounts
 
 ### Features for future release
-
+* Blog Section
+- Create more interaction with the user. Could update with blog posts such as seasonal drinks for all holidays.
+* Newsletter
+- Users could sign up for a newsletter could contain "cocktail of the week"
 
 ## Technologies Used
 
