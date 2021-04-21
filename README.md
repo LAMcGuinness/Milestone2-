@@ -4,12 +4,39 @@ This is a milestone 2 project for the Code Institute. The aim of this project to
 
 This website 'Cocktail Space' is an interactive cocktail recipe website which includes what ingredients are need and instructions the instructions, to make some of the most popular cocktails from around the world.
 
-A live version of the website can be found ---- and its repository ----
+## Table of Content
+- [About](#about)
+- [UX](#ux)
+    - [Business Scope](#business-scope)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+    - [Current Features](#current-features)
+    - [Features for Future](#features-for-future)
+- [Technologies Used](#technologies-used)
+    - [Lauguages](#languages)
+    - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programes-used)
+- [Testing](#testing)
+    - [Issues Encountered](#issues-encountered)
+    - [User Stories](#user-stories)
+        - [First time user](#first-time-user)
+        - [Returning user](#returning-user)
+    - [Functionality](#functionality)
+    - [Compatibility](#compatibility)
+    - [Performance and Accessibility](#performance-and-accessibility)
+    - [Code validation](#code-validation)
+    - [Further testing](#further-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## About
 Cocktail Space is designed for people who are above the legal age of drinking in their country. It was designed to give people the knowledge to create bar quality drinks at home for housemates or family.
 
-## UX Design 
+A live version of the website can be found ---- and its repository ----
+
+## UX
 
 ### Business Scope
 By having this website the business is aiming to;
@@ -38,6 +65,7 @@ Wirefames were created using balsamiq and can be found in the link below.
 [Wirefames](https://balsamiq.cloud/susrf72/p9rmus4) 
 
 ## Features
+### Current Features
 * Navigation Bar 
 -  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
 
@@ -47,7 +75,7 @@ Wirefames were created using balsamiq and can be found in the link below.
 * Footer
 - Contains links to their social media accounts
 
-## Features for future release
+### Features for future release
 
 
 ## Technologies Used
@@ -87,13 +115,13 @@ Wirefames were created using balsamiq and can be found in the link below.
 ## Testing
 ### Issues Encountered
 
-### Testing User Stories
+### User Stories
 
 #### First time user
 
 #### Returning User
 
-### Testing Functionality
+### Functionality
 
 #### Checked for broken links
 
@@ -101,7 +129,7 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 #### Tested form validation
 
-### Testing Compatibility
+### Compatibility
 
 #### Responsiveness
  
@@ -111,7 +139,7 @@ The website was tested on the following devices:
 #### Browser Test
 Tested the website on most up to date versions of:
 
-### Testing Performance & Accessibility
+### Performance & Accessibility
 
 ### Code validation
 
