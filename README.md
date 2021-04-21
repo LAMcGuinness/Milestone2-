@@ -81,6 +81,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 11. [JSONLint](https://jsonlint.com/) 
 
+12. [EmailJS](https://www.emailjs.com/) JS for contact form
+
 
 ## Testing
 ### Issues Encountered
