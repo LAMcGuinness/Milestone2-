@@ -12,6 +12,11 @@ body {
     background-color: #403C3E;
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
 .container-fluid {
     margin-top: 20px;
 }
@@ -124,11 +129,16 @@ body {
     font-weight: 700;
     border-radius: 25px;
     width: 200px;
-   color: #403c3e;
-   background-color: #F25D50; 
-   border-color: #7BA681;
-   margin-top: 10px;
-   margin-bottom: 20px;
+    color: #403c3e;
+    background-color: #F25D50; 
+    border-color: #7BA681;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-search{
+    margin-left: auto;
+    margin-right: auto;
 }
 /* cocktails */
 .cocktails-head {
@@ -137,6 +147,23 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #F25D50;
+}
+
+#searchBar.searchBar {
+    width: 90%;
+    align-items: center;
+    color: #403c3e;
+    background-color: #F25D50;
+    border: 2.5px solid #7BA681;
+    border-radius: 25px;
+    padding-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+#cocktail-menu {
+    position: relative;
 }
 
 /* contact section */
@@ -172,10 +199,10 @@ form{
 }
 
 textarea.form-control {
-    BACKGROUND-COLOR: #403C3E;
+    background-color: #403C3E;
     height: auto;
-    BORDER: #7BA681 SOLID 1PX;
-    COLOR: #F25D50;
+    border: #7BA681 SOLID 1PX;
+    color: #F25D50;
 }
 /* Footer */
 footer {
