@@ -1,55 +1,45 @@
-// API used "https://thecocktaildb.com/api/json/v1/1/search.php?f=m"
+// api used https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 
-/* JS for cocktails.html*/
-// get cocktails
-let allCocktails = {}
+function getCocktail(){
+  // code from google devoloper
+  fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita')
+     .then(
+      function(response) {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
 
-$(document).ready(function() {
-  getCocktails
-});
-
-// fetch cocktails from json
-fetch("https://thecocktaildb.com/api/json/v1/1/search.php?f=m")
-    .then((response) => {
-        return response.json()
-    });
-
-
-/* JS for Contact.html */ 
-// EmailJS to added for contact form
-// Code is from https://dashboard.emailjs.com/admin/integration
-// Constants for EmailJS
-const btn = document.getElementById('submit');
-const contactForm = document.getElementById('contact-form');
-const userName = document.getElementById('from_name');
-
-(function() {
-  emailjs.init("user_kBVOjl06VneelQ0EvvvLQ");
-});
-window.onload = function(){
-//event listener for submit
-contactForm.addEventListener('submit', function(event){
-  event.preventDefault();
-  btn.value = "Sending"
-
-  //send form details
-
-  emailjs.sendForm("service_18idldn","template_35epc3x", "#myForm");
-    then(function(response) {
-        btn.value = 'Submit';
-        setTimeout(() => { btn.disabled = true; }, 1000);
-        alert(`Sent`);
-        contactForm.reset();
-        console.log('SUCCESS!', response.status, response.text);
-    }, function(error)  {
-        btn.value = 'Submit';
-        btn.disabled = true;
-        alert(alert(JSON.stringify(err)`Opps. Please try again`));
-        console.log('FAILED...', error);
+      // Examine the text in the response
+      response.json().then(function(data) {
+        console.log(data);
+        displayCocktail(data);
+      });
+    }
+)
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
   });
-  //stop
-  return false;
-})
 }
 
-   
+getCocktail();
+
+function displayCocktail(cocktail){
+  let cocktailSection = document.querySelector('#cocktail-section');
+  
+  let cocktailName = document.createElement('h2');
+  cocktailName.innerHTML = cocktail.drinks[0].strDrink;
+
+  cocktailSection.appendChild(cocktailName);
+
+  let img = document.createElement('img');
+  img.setAttribute('id', 'cocktailImage');
+  img.src = cocktail.drinks[0].strDrinkThumb;
+
+  cocktailSection.appendChild(img);
+
+  // create loop for ingredients
+
+
+};

@@ -137,35 +137,40 @@ h2git {
 }
 
 .btn-search{
-    margin-left: auto;
-    margin-right: auto;
-}
-/* cocktails */
-.cocktails-head {
-    padding-top: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #F25D50;
-}
-
-#searchBar.searchBar {
-    width: 90%;
-    align-items: center;
-    color: #403c3e;
-    background-color: #F25D50;
-    border: 2.5px solid #7BA681;
-    border-radius: 25px;
-    padding-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
+    border-radius: 25px;
+    width: 200px;
+    color: #403c3e;
+    background-color: #F25D50; 
+    border-color: #7BA681;
+}
+/* cocktails */
+.cocktail-head {
+    width: 100%;
+    color: #F25D50;
+    background-color: #403c3e;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
-#cocktail-menu {
-    position: relative;
+#cocktail-section{
+    padding-top: 18px;
+    margin-top: 24px;
+    font-family: Merriweather;
+    color: #F25D50;
 }
 
+#cocktailImage {
+    height: auto;
+    width: 100%;
+}
 /* contact section */
 
 .contact-form {
@@ -179,6 +184,7 @@ h2git {
  }
  
  .contact-heading {
+     letter-spacing: 1.5px;
      padding-top: 18px;
      margin-top: 18px;
      margin-bottom: 18px;
