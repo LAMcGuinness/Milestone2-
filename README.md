@@ -134,18 +134,46 @@ script.js:26 Uncaught TypeError: Cannot read property 'addEventListener' of null
 Solution : Put code inside window.onload
 
 ### User Stories
-
 #### First time user
+* Navigate through the website with ease and find all information presented clearly.
+    - First time user can clearly navigate through the site by using the fixed navigation bar at the top. It is visable at all times on all devices. Also clicking the logo on same with bring you back to the landing page.
+* Learn more about cocktail making and mixology.
+    - This can be done by using the search function in the cocktail section. 
+* Easily find the selection of cocktails that instructions are available to make on this website.
+
+* Easily find the ingredients needed, instructions on making and serving selected cocktail.
+
+* Increase my knowledge and skill in cocktail making
+
+* Have links to social media to learn more about the company.
+    - Links the the companys social media accounts can be found at the bottom of all pages.
+
+* Link to contact information incase of any further questions or feedback.  
+    - There is a contact form page. Here a user can send form once name, email and message containing questions or feedback is filled out.
 
 #### Returning User
+* Easily navigate around the website.
+    - Navigation can be easily done by using the navigation bar at the top of page or the back and forward buttons on browser.
+* Find favourite and new cocktails to make.
+    - Using search bar 
+* Search for cocktails
+    - Using the search bar.
+* Find links to social media account
+    - Social media links are in the footer of each page. When they are clicked they link will open in a new page so they will not loose there place on orginal page
+* Contact the creators if I have some suggestions or queries.
+    - Contact section is accessible through the navigation bar. Once there a form can be sent once the user has entered name, email and message.
 
 ### Functionality
-
 #### Checked for broken links
-
+1. Started on landing page from the top left side clicked every button and link to ensure that each button had the anticipated action. Everything working as expected.
+2. Same tests carried out on cocktail page... ***##FINISH WHEN COMPLETE##***
+3. Same tests carried out on contact page. All links working as expected.
 #### Tested browser back/forward actions
-
+* Back and forward actions working as anticipiated throughout the site.
 #### Tested form validation
+* Cocltail button on landing page works properly directs user to the cocktail section.
+* Search Button in cocktail section ###****!!FINISH WHEN COMPLETE
+* Contact form worked as expected. It will not send unless all feilds contain text. Email feild must contain "@". Submit works.
 
 ### Compatibility
 
