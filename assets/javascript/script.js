@@ -38,8 +38,15 @@ function displayCocktail(cocktail){
   img.src = cocktail.drinks[0].strDrinkThumb;
 
   cocktailSection.appendChild(img);
+  // maybe cards/bootstrap better?
 
-  // create loop for ingredients
+  // create loop for ingredients and measures 
 
 
+  //for(let i=1; 1<15; i++){
+    //let ingredient = document.createElement('list')
+   // ingredient.innerHTML = cocktail.drinks[0][`strMeasure${i}`] + ':' + cocktail.drinks[0][`strIngredient${i}`];
+
+    //cocktailSection.appendChild(ingredient);
+ // }
 };

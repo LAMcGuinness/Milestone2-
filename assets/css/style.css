@@ -136,19 +136,20 @@ h2git {
     margin-bottom: 20px;
 }
 
-.btn-search{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 700;
-    border-radius: 25px;
-    width: 200px;
-    color: #403c3e;
-    background-color: #F25D50; 
-    border-color: #7BA681;
-}
+
 /* cocktails */
+div.search-area {
+    background-color: #403C3E;
+    color: #F25D50;
+    border: solid, 1px;
+    border-color: #7BA681;
+
+
+}
+
+#searhBar{
+}
+
 .cocktail-head {
     width: 100%;
     color: #F25D50;
