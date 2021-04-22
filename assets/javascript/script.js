@@ -1,14 +1,21 @@
 // API used "https://thecocktaildb.com/api/json/v1/1/search.php?f=m"
 
-/*cocktails.html*/
+/* JS for cocktails.html*/
+// get cocktails
+let allCocktails = {}
+
+$(document).ready(function() {
+  getCocktails
+});
+
 // fetch cocktails from json
 fetch("https://thecocktaildb.com/api/json/v1/1/search.php?f=m")
     .then((response) => {
         return response.json()
-    })
+    });
 
 
-/* Contact.html */ 
+/* JS for Contact.html */ 
 // EmailJS to added for contact form
 // Code is from https://dashboard.emailjs.com/admin/integration
 // Constants for EmailJS
