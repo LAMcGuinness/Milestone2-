@@ -1,6 +1,16 @@
 // api used https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 
+// constants
 const cocktailList = document.getElementById('cocktailList');
+const searchBar = document.getElementById('searchBar');
+
+// event listener for keyboard search
+searchBar.addEventListener('keyup', (e) => {
+
+
+});
+
+
 
 const loadCocktails = async () => {
     try {
@@ -28,3 +38,5 @@ const displayCocktail = (cocktails) => {
   };
 
   loadCocktails();
+
+

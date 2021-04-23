@@ -136,16 +136,27 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* search bar */
+#searchBar {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #7BA681;
+    padding: 10px; 
+}
+
+#seachWrap {
+    position: relative;
+    width: 100%;
+}
+
+searchWrap::after {
+    content: 'Search';
+    position: absolute;
+    right: 16px;
+
+}
 
 /* cocktails */
-
-div#searhWrap.search-area{
-    width: 100%;
-    background-color: #403C3E;
-    color: #F25D50;
-    border: solid, 1px;
-    border-color: #7BA681;
-}
 
 .cocktail-head {
     width: 100%;
@@ -153,7 +164,7 @@ div#searhWrap.search-area{
     background-color: #403c3e;
     letter-spacing: 1.5px;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 40px;
     margin-top: 18px;
     margin-bottom: 18px;
 }
