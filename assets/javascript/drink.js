@@ -1,11 +1,22 @@
 // API used www.thecocktaildb.com/api/json/v1/1/random.php error wrong api used
-
+const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 // fetch() from google developers
 
+// for search bar
+function grabSearchValue() {
+  let searchVal = document.getElementById('search').value;
+  fetch(baseUrl + '?s=' + searchVal)
+  .then(function(response) {
+    for (var resp ; response; {
+      buildCocktailDiv(cocktail)
+    });    
+});
+}
+
 function getRandomCocktail(){
-    fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
+    fetch(baseUrl)
   .then(
-    function(response) {
+    function (response) {
       if (response.status !== 200) {
         console.log('Looks like there was a problem. Status Code: ' +
           response.status);
@@ -13,9 +24,9 @@ function getRandomCocktail(){
       }
 
       // Examine the text in the response
-      response.json().then(function(data) {
+      response.json().then(function (data) {
         console.log(data);
-        buildCocktailDiv(data)
+        buildCocktailDiv(data);
       });
     }
   )
@@ -25,7 +36,7 @@ function getRandomCocktail(){
 
 }
 
-getRandomCocktail();
+buildCocktailDiv();
 
 function buildCocktailDiv(cocktail){
 
@@ -47,7 +58,7 @@ function buildCocktailDiv(cocktail){
 
     for(let i=1; i<15; i++){
         if(cocktail.drinks[0][`strIngredient${i}`] == null){
-            break
+            break;
         }
 // if statement will run break loop when ingredients = null. Measures will be same. 
 
