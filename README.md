@@ -1,4 +1,5 @@
 # Milestone Project 2
+![Picture of Site](/assets/images/milestone2responsive.png)
 
 This is a milestone 2 project for the Code Institute. The aim of this project to build an interactive front-end site. 
 
@@ -35,7 +36,9 @@ This website 'Cocktail Space' is an interactive cocktail recipe website which in
 ## About
 Cocktail Space is designed for people who are above the legal age of drinking in their country. It was designed to give people the knowledge to create bar quality drinks at home for housemates or family.
 
-A live version of the website can be found ---- and its repository ----
+A live version of the website can be found [here](https://lamcguinness.github.io/Milestone2-CocktailSpace/) and its repository [here](https://github.com/LAMcGuinness/Milestone2-CocktailSpace)
+
+
 
 ## UX
 
@@ -95,8 +98,10 @@ Wirefames were created using balsamiq and can be found in the link below.
 - Contains links to their social media accounts. Social media links will open on a sperate tab.
 
 ### Features for future release
-* Improve on Uniformity of site content.
+* Improve on Uniformity of site content. Some styling improvements needed also. 
 - Make sure all headers, padding, margins etc are uniform throughout the site.
+* Add some features to make it easier for user to navigate. 
+- 
 * Blog Section
 - Create more interaction with the user. Could update with blog posts such as seasonal drinks for all holidays.
 * Newsletter
