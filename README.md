@@ -19,6 +19,7 @@ This website 'Cocktail Space' is an interactive cocktail recipe website which in
     - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programes-used)
 - [Testing](#testing)
     - [Issues Encountered](#issues-encountered)
+    - [Business Scope](#business-scope)
     - [User Stories](#user-stories)
         - [First time user](#first-time-user)
         - [Returning user](#returning-user)
@@ -40,6 +41,11 @@ A live version of the website can be found ---- and its repository ----
 
 ### Business Scope
 By having this website the business is aiming to;
+* Want to user to have a pleasurable experience on the page.
+* Want the user to easily navigate around the page
+* Enjoy learning how to make random new cocktails
+* If user can do all of these things. Return to the page ofter to learn new cocktail recipies
+* Want the user to share the site with friends and increase ammount of people using the site.
 
 ### User Stories
 As as first time user I want to;
@@ -80,14 +86,17 @@ Wirefames were created using balsamiq and can be found in the link below.
 -  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections. The navigation bar contains links to each section: home, cocktails and contact.
 
 * Cocktail Section 
+- contains the fixed navigation bar at the top of the screen to navigate throught the website. Also contains a search bar to for users to search for favourite cocktails and a random cocktail displayed below if the user cant decide!
 
 * Contact Section
 - Contains a contact form for users to contact the develops with any questions or feedback.
 
 * Footer
-- Contains links to their social media accounts
+- Contains links to their social media accounts. Social media links will open on a sperate tab.
 
 ### Features for future release
+* Improve on Uniformity of site content.
+- Make sure all headers, padding, margins etc are uniform throughout the site.
 * Blog Section
 - Create more interaction with the user. Could update with blog posts such as seasonal drinks for all holidays.
 * Newsletter
@@ -135,9 +144,16 @@ Wirefames were created using balsamiq and can be found in the link below.
 script.js:26 Uncaught TypeError: Cannot read property 'addEventListener' of null
 Solution : Put code inside window.onload
 
+- Unable to style search bar. 
+Solution: Styled in DevTools copied and pasted from there and noted id and class to save it as in style.css
 
-
-
+### Business Scope
+* Want to user to have a pleasurable experience on the page.
+    - site is simple to use. with navigation buttons at the top and a cocktail call to action button on the landing page. From there user is directed to cocktail page where directions and searchbar are clearly visable to the user.
+* Want the user to easily navigate around the page
+* Enjoy learning how to make random new cocktails
+* If user can do all of these things. Return to the page ofter to learn new cocktail recipies
+* Want the user to share the site with friends and increase ammount of people using the site.
 
 ### User Stories
 #### First time user
@@ -148,8 +164,10 @@ Solution : Put code inside window.onload
 * Easily find the selection of cocktails that instructions are available to make on this website.
 
 * Easily find the ingredients needed, instructions on making and serving selected cocktail.
+    - ingredients, measures and method are displayed below name and picture of cocktail. 
 
 * Increase my knowledge and skill in cocktail making
+    - Over 600 cocktails in the API with a randon one generated on the page or ability to search for new cocktails via the search bar to increase you knowledge of cocktails. Ingredients and Method are displayed below the picture.
 
 * Have links to social media to learn more about the company.
     - Links the the companys social media accounts can be found at the bottom of all pages.
@@ -187,6 +205,11 @@ Solution : Put code inside window.onload
  
 #### Devices Test
 The website was tested on the following devices:
+1. MacBook Pro 13-inch
+2. iPhone 11 Pro Max
+3. iPad Pro 12.9-inch
+4. Huawei p20 lite
+5. Amazon fire 10 HD tablet
 
 #### Browser Test
 Tested the website on most up to date versions of:
@@ -196,7 +219,8 @@ Tested the website on most up to date versions of:
 ### Code validation
 
 #### HTML
-HTML code was validated by [W3C Validator](https://validator.w3.org/).
+HTML code was validated by [W3C Validator](https://validator.w3.org/). Code from index.html, cocktails.html, and contact.html was ran through HTML validation.
+No errors
 
 #### CSS
 CSS was validated by [W3C CSS](https://validator.w3.org/). 
@@ -219,22 +243,34 @@ This project was deployed via GitHub pages using the steps below:
 ### Forking the GitHub repository
 Forking the orginal respository on GitHub account can be used to make changes to copy with out affecting the orignal repository. Use the following steps if doing this:
 
-1. Login to GitHub and locate Milestone2 Respitory.
+1. Login to GitHub and locate Milestone2-Cocktail Space Respitory.
 2. At the top of Repository just above "Settings" button there is a "Fork" button.
 3. There should now be a copy of the orginal repository in our GitHub account.
 
+### Making a clone or download zip to run locally.
+1. Log in GitHub and click on respository.
+2. Select Milestone2-Cocktail Space Repository. 
+3. Click on "Code" button along the top next to green "Gitpod button".
+4. Download ZIP to run locally.
+5. To make clone - click on clipboard icon.
+6. Open Git Bash.
+7. Change the current working directory to where cloned directory is located.
+8. Type 'git clone' in commant line and paste URL into search bar beside clipboard icon (from step 5).
+9. When return key pressed created local clone.
+
 ## Credits
 * Code
-  // references
-  // https://getbootstrap.com/docs/4.0/components/card/
+    - [Code Institute](www.codeinstitute.com) code taken and edited from course material
+    - [SearchBar Video](https://www.youtube.com/watch?v=wxz5vJ1BWrc) ideas taken from here
+    - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) code copied from here for navbar, containers and buttons.
   // https://stackoverflow.com/questions/57890996/html-and-javascript-search-bootstrap-cards
-  // https://www.youtube.com/watch?v=wxz5vJ1BWrc&list=PLotcS_DPf6RdbtVKp5zvGQdtMrtK0O0Fv&index=3 searhbar
+
   // cocktail api
   // https://dmitripavlutin.com/foreach-iterate-array-javascript
 
  
 * General
-- A general source of inspiration for ideas [Hennessy](https://www.hennessy.com/en-int/cocktails?gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFP86x5_iu8DZQb6YhWmUcYaV7xiKPKNrRNpDU4aqUZQAq8_5xeIIZIaAo7tEALw_wcB)
+    - A general source of inspiration for ideas [Hennessy](https://www.hennessy.com/en-int/cocktails?gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFP86x5_iu8DZQb6YhWmUcYaV7xiKPKNrRNpDU4aqUZQAq8_5xeIIZIaAo7tEALw_wcB)
 
 ### Acknowledgements
 * I would like to thank my mentor
