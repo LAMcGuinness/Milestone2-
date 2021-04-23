@@ -54,7 +54,7 @@ h2 {
     font-size: 14px;
 }
 
-.navbar .navbar-toggler-icon {
+.navbar-toggler-icon {
     color: #F25D50;
 }
 
@@ -176,9 +176,10 @@ searchWrap::after {
     color: #F25D50;
 }
 
-#cocktailImage {
+#cocktail-section img{
     height: auto;
     width: 100%;
+    padding: 25px;
 }
 /* contact section */
 

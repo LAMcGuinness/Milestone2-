@@ -129,9 +129,13 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Testing
 ### Issues Encountered
+- 404 error in console log when API was fetchs. Multiple API links on the website used wrong one entered the reccomend api key and is now working fine. 
+
 - When adding the event listener to contact form this JS error came up in DevTools.
 script.js:26 Uncaught TypeError: Cannot read property 'addEventListener' of null
 Solution : Put code inside window.onload
+
+
 
 ### User Stories
 #### First time user
@@ -219,6 +223,12 @@ Forking the orginal respository on GitHub account can be used to make changes to
 
 ## Credits
 * Code
+  // references
+  // https://getbootstrap.com/docs/4.0/components/card/
+  // https://stackoverflow.com/questions/57890996/html-and-javascript-search-bootstrap-cards
+  // https://www.youtube.com/watch?v=wxz5vJ1BWrc&list=PLotcS_DPf6RdbtVKp5zvGQdtMrtK0O0Fv&index=3 searhbar
+  // cocktail api
+  // https://dmitripavlutin.com/foreach-iterate-array-javascript
 
  
 * General
