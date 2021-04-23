@@ -13,7 +13,7 @@ body {
 }
 
 h1,
-h2git {
+h2 {
     text-transform: uppercase;
 }
 
@@ -138,16 +138,13 @@ h2git {
 
 
 /* cocktails */
-div.search-area {
+
+div#searhWrap.search-area{
+    width: 100%;
     background-color: #403C3E;
     color: #F25D50;
     border: solid, 1px;
     border-color: #7BA681;
-
-
-}
-
-#searhBar{
 }
 
 .cocktail-head {
