@@ -1,5 +1,20 @@
-//send form details
+const btn = document.getElementById('submit');
+const contactForm = document.getElementById('contact-form');
+const userName = document.getElementById('fullname')
 
+(function (){
+    emailjs.init('user_kBVOjl06VneelQ0EvvvLQ')
+})();
+
+//add event listent for submit btn
+window.onload = function () {
+    contactForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        btn.value = 'Sending'
+    }
+
+
+//send form details
 emailjs.sendForm("service_18idldn","template_35epc3x", "#myForm");
 then(function(response) {
     btn.value = 'Submit';
@@ -16,4 +31,5 @@ then(function(response) {
 //stop
 return false;
 
+};
 
