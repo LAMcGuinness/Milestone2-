@@ -7,16 +7,15 @@ const userName = document.getElementById('fullname')
 })();
 
 //add event listent for submit btn
-window.onload = function () {
-    contactForm.addEventListener('submit', function (event) {
+contactForm.addEventListener('submit', function (event) {
         event.preventDefault();
         btn.value = 'Sending'
-    }
+}
 
 
 //send form details
 emailjs.sendForm("service_18idldn","template_35epc3x", "#myForm");
-then(function(response) {
+then(() => {
     btn.value = 'Submit';
     setTimeout(() => { btn.disabled = true; }, 1000);
     alert(`Sent`);

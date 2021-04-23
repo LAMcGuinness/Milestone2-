@@ -137,6 +137,8 @@ Solution : Put code inside window.onload
 
 
 
+
+
 ### User Stories
 #### First time user
 * Navigate through the website with ease and find all information presented clearly.

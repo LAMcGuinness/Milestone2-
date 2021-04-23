@@ -15,7 +15,7 @@ function getRandomCocktail(){
       // Examine the text in the response
       response.json().then(function(data) {
         console.log(data);
-        displayRandomCocktail(data)
+        buildCocktailDiv(data)
       });
     }
   )
@@ -27,7 +27,7 @@ function getRandomCocktail(){
 
 getRandomCocktail();
 
-function displayRandomCocktail(cocktail){
+function buildCocktailDiv(cocktail){
 
     let cocktailSection = document.querySelector("#cocktail-section");
 // add cocktail name and append
