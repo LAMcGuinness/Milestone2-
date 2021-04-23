@@ -157,6 +157,13 @@ searchWrap::after {
 }
 
 /* cocktails */
+input#search.search{
+    border: solid;
+    width: 100%;
+    background-color: #403c3E;
+    border-color: #7BA681;
+    border-radius: 25px;    
+}
 
 .cocktail-head {
     width: 100%;
