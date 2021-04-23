@@ -3,7 +3,7 @@
 
 /* general */
 html {
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 body {
@@ -58,6 +58,9 @@ h2 {
     color: #F25D50;
 }
 
+button.navbar-toggler.collapsed{
+    border-color: #F25D50;
+}
 /* Callout */
 
 .callout-container {
@@ -266,4 +269,33 @@ footer {
   #footer-details {
       padding: 25px;
   }
-  
+
+  /* media queries for small screens */
+  @media screen and (max-width: 550px){
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    }
+
+    .navbar-toggler{
+        font-size: 20px;
+        padding: 0;
+        color: #F25D50;
+    }
+    
+    .jumbotron-header{
+        font-size: 28px;
+    }
+
+    .jumbotron-subhead {
+        font-size: 24px;
+    }
+    .btn {
+        font-size: 16px;
+
+    }
+}

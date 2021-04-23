@@ -220,10 +220,14 @@ Tested the website on most up to date versions of:
 
 #### HTML
 HTML code was validated by [W3C Validator](https://validator.w3.org/). Code from index.html, cocktails.html, and contact.html was ran through HTML validation.
-No errors
+No errors showed up. Example of result shown below. 
+![Html Validation](/assets/images/HTMLValidator.png)
 
 #### CSS
-CSS was validated by [W3C CSS](https://validator.w3.org/). 
+CSS was validated by [W3C CSS](https://validator.w3.org/). CSS validatian complete. Initally showed error seen in image below.
+![CSS Error](/assets/images/CSSValidatorError.png)
+Error when adding the media querries in CSS for small screen. Forgot "}" at the end. This is now fixed and now errors shown.
+![CSS Validation](/assets/images/CSSValidator.png)
 
 #### JavaScript
 JavaScript was validate by [JSHint](https://jshint.com/).
