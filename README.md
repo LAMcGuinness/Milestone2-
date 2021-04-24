@@ -82,6 +82,8 @@ Icons were used in the footer to show social media links. The user should easily
 ### Wireframes
 Wirefames were created using balsamiq and can be found in the link below.
 [Wirefames](https://balsamiq.cloud/susrf72/p9rmus4) 
+    -Note on wireframes
+     I may have been to ambitious on my early design wireframe and with the time i had left myself to do this, but ideally in future releases I could get it up to there.
 
 ## Features
 ### Current Features
@@ -139,6 +141,8 @@ Wirefames were created using balsamiq and can be found in the link below.
 11. [JSONLint](https://jsonlint.com/) 
 
 12. [EmailJS](https://www.emailjs.com/) JS for contact form
+
+
 
 
 ## Testing
@@ -209,7 +213,7 @@ Solution: Styled in DevTools copied and pasted from there and noted id and class
 #### Responsiveness
  
 #### Devices Test
-The website was tested on the following devices:
+The website was tested on the following devices and worked as expected:
 1. MacBook Pro 13-inch
 2. iPhone 11 Pro Max
 3. iPad Pro 12.9-inch
@@ -217,7 +221,11 @@ The website was tested on the following devices:
 5. Amazon fire 10 HD tablet
 
 #### Browser Test
-Tested the website on most up to date versions of:
+Tested the website on versions of the following and worked as expected:
+1. Safari
+2. Chrome
+3. Mozilla Firefox
+4. Internet explorer. 
 
 ### Performance & Accessibility
 
@@ -271,8 +279,8 @@ Forking the orginal respository on GitHub account can be used to make changes to
 * Code
     - [Code Institute](www.codeinstitute.com) code taken and edited from course material
     - [SearchBar Video](https://www.youtube.com/watch?v=wxz5vJ1BWrc) ideas taken from here
-    - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) code copied from here for navbar, containers and buttons.
-  // https://stackoverflow.com/questions/57890996/html-and-javascript-search-bootstrap-cards
+    - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) code copied from here for navbar     containers and buttons.
+    - [On Click](https://www.w3schools.com/jsref/event_onclick.asp) information for on click taken from here.
 
   // cocktail api
   // https://dmitripavlutin.com/foreach-iterate-array-javascript
@@ -282,5 +290,6 @@ Forking the orginal respository on GitHub account can be used to make changes to
     - A general source of inspiration for ideas [Hennessy](https://www.hennessy.com/en-int/cocktails?gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFP86x5_iu8DZQb6YhWmUcYaV7xiKPKNrRNpDU4aqUZQAq8_5xeIIZIaAo7tEALw_wcB)
 
 ### Acknowledgements
-* I would like to thank my mentor
-* The student care team at Code Institute.
+* I would like to thank my mentor Gerry McBride for his time and tips on what to do in a short space of time.
+* The student care team at Code Institute for the encouragement to keep going!
+* 

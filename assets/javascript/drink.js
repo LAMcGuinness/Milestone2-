@@ -2,18 +2,37 @@
 const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 // fetch() from google developers
 
-// for search bar
+//button 
+
+//for search bar
 function grabSearchValue() {
 
-  let searchVal = document.getElementById('search').value;
+   let searchVal = document.getElementById('search').value;
 
-  fetch(baseUrl + '?i=' + searchVal)
-  .then(function(response) {
-    for (var resp ; response; {
-      buildCocktailDiv()
-     
+    fetch(baseUrl + '?i=' + searchVal)
+      .then(function(response) {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+          return;
+        }
+  
+        // Examine the text in the response
+        response.json().then(function (data) {
+          console.log(data);
+          buildCocktailDiv(data);
+        });
+      }
+    )
+    .catch(function name(params){
+
+    })
+  }
+
+
+         for (var resp ; response; {
+    buildCocktailDiv()
 });
-})
 
 function getRandomCocktail(){
     fetch(baseUrl)
