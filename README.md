@@ -199,13 +199,13 @@ Solution: Styled in DevTools copied and pasted from there and noted id and class
 ### Functionality
 #### Checked for broken links
 1. Started on landing page from the top left side clicked every button and link to ensure that each button had the anticipated action. Everything working as expected.
-2. Same tests carried out on cocktail page... ***##FINISH WHEN COMPLETE##***
+2. Same tests carried out on cocktail page... Could not get to work 
 3. Same tests carried out on contact page. All links working as expected.
 #### Tested browser back/forward actions
 * Back and forward actions working as anticipiated throughout the site.
 #### Tested form validation
 * Cocltail button on landing page works properly directs user to the cocktail section.
-* Search Button in cocktail section ###****!!FINISH WHEN COMPLETE
+* Search Button in cocktail section. Could not get to work
 * Contact form worked as expected. It will not send unless all feilds contain text. Email feild must contain "@". Submit works.
 
 ### Compatibility
@@ -229,6 +229,9 @@ Tested the website on versions of the following and worked as expected:
 
 ### Performance & Accessibility
 
+I used the [lighthouse](https://developers.google.com/web/tools/lighthouse) on devtools to test performace and accessibility. performance scoring 99 and accessibilty scoring 93.
+![lighthouse report](/assets/images/Lighthousereport.png)
+
 ### Code validation
 
 #### HTML
@@ -243,7 +246,8 @@ Error when adding the media querries in CSS for small screen. Forgot "}" at the 
 ![CSS Validation](/assets/images/CSSValidator.png)
 
 #### JavaScript
-JavaScript was validate by [JSHint](https://jshint.com/).
+JavaScript was validate by [JSHint](https://jshint.com/). no errors but some unused variables. ran out of time before submission to figure out the problem.
+![JSHint](/assets/images/jshint.png)
 ### Further testing 
 * Spell check carried out using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). 
 

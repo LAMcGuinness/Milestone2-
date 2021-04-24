@@ -1,9 +1,16 @@
-// API used www.thecocktaildb.com/api/json/v1/1/random.php error wrong api used
+
 const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
+const searchInput = document.getElementById('search');
 // fetch() from google developers
 
 //button 
+let searchTerm = '';
 
+searchInput.addEventListener('input', e => {
+  searchTerm = e.target.value;
+
+  showCocktails();
+});
 //for search bar
 function grabSearchValue() {
 
@@ -22,18 +29,20 @@ function grabSearchValue() {
           console.log(data);
           buildCocktailDiv(data);
         });
-      }
+    }
     )
     .catch(function name(params){
 
-    })
+    });
   }
 
 
          for (var resp ; response; {
-    buildCocktailDiv()
+  buildCocktailDiv() {
+}
 });
 
+// Get randmon coctail
 function getRandomCocktail(){
     fetch(baseUrl)
   .then(
