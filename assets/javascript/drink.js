@@ -4,14 +4,16 @@ const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 
 // for search bar
 function grabSearchValue() {
+
   let searchVal = document.getElementById('search').value;
-  fetch(baseUrl + '?s=' + searchVal)
+
+  fetch(baseUrl + '?i=' + searchVal)
   .then(function(response) {
     for (var resp ; response; {
-      buildCocktailDiv(cocktail)
-    });    
+      buildCocktailDiv()
+     
 });
-}
+})
 
 function getRandomCocktail(){
     fetch(baseUrl)
